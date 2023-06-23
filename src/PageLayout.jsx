@@ -1,8 +1,7 @@
 import React from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import "./layout.css"
 import Dictionary from "./dictionary"
-
 
 export default function PageLayout() {
 
@@ -10,7 +9,7 @@ export default function PageLayout() {
 <section>
 <nav>
         <span className="icon">
-          <Link to="/homepage"> <i className="fa-solid fa-ellipsis"></i></Link>
+          {/* <Link to="/homepage"> <i className="fa-solid fa-ellipsis"></i></Link> */}
           <i className="fa-solid fa-share-nodes"> </i>
             <i className="fa-sharp fa-solid fa-bookmark"></i>
          
@@ -42,7 +41,7 @@ Reading is still a state of mind, and this place reflects that state perfectly â
 
 A former printing space gave life to a bookstore where the goal is to give those who like to read, everything they could ever ask for. But this space is not just a bookstore, here you can attend concerts, exhibitions and events. 
 <br/>
-<Link to="/bookstores"><button>see more</button></Link>
+{/* <Link to="/bookstores"><button>see more</button></Link> */}
 </div>
 </div>  
 
